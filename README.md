@@ -63,7 +63,7 @@ Mobil
 }
 ```
 
-2. When I set grid columns / rows to 50%, and it has text overflow issue. (the content didn't stay inside the padding) Change the value to 1fr and it fixed this problem.
+2.) When I set grid columns / rows to 50%, and it has text overflow issue. (the content didn't stay inside the padding) Change the value to 1fr and it fixed this problem.
 
 ```css
 .container {
@@ -73,9 +73,14 @@ Mobil
 }
 ```
 
-### Continued development
+3.) Use all: unset to make the button works properly in desktop and mobile version. Also we need to give text-align property as well.
 
-Optimize mobile version.
+```css
+.btn {
+  all: unset;
+  text-align: center;
+}
+```
 
 ## Author
 

@@ -76,7 +76,8 @@ body {
   margin-bottom: 1.1rem; }
 
 .description {
-  color: #c5cad3; }
+  color: #c5cad3;
+  line-height: 1.4; }
 
 .title {
   font-size: 1.8rem;
@@ -84,12 +85,14 @@ body {
   margin-bottom: 1.8rem; }
 
 .btn {
-  display: inline-block;
+  all: unset;
+  text-align: center;
+  width: 100%;
   border: none;
   color: #fff;
   text-transform: uppercase;
   background-color: #5fa4c8;
-  padding: 1.5rem 8rem;
+  padding: 1.5rem 0;
   border-radius: 7px;
   font-weight: 700;
   cursor: pointer;
@@ -104,7 +107,7 @@ body {
 /*---------- max-width 720px ----------*/
 @media screen and (max-width: 45em) {
   .container {
-    width: 50vw;
+    max-width: 70vw;
     grid-template-rows: repeat(3, 1fr); }
   .card {
     padding: 2.4rem; }
@@ -112,10 +115,10 @@ body {
       grid-column: 1 / -1; }
     .card:nth-child(3) {
       grid-column: 1 / -1; }
-  .btn {
-    padding: 1.5rem 4.5rem; }
   .heading-h1 {
     font-size: 2rem; }
   .subheading {
     font-size: 1.5rem;
-    margin-bottom: 1.6rem; } }
+    margin-bottom: 1.6rem; }
+  .description {
+    line-height: 1.6; } }
