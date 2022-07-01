@@ -73,6 +73,14 @@ Mobil
 }
 ```
 
+However, in the mobile size, I swap the rows to auto, incase the grid overflow the viewport.
+
+```css
+.container {
+  grid-template-rows: repeat(3, auto);
+}
+```
+
 3.) Use all: unset to make the button works properly in desktop and mobile version. Also we need to give text-align property as well.
 
 ```css

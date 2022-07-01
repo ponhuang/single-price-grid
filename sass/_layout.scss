@@ -108,8 +108,8 @@
 /*---------- max-width 720px ----------*/
 @media screen and (max-width: 45em) {
   .container {
-    max-width: 70vw;
-    grid-template-rows: repeat(3, 1fr);
+    max-width: 80vw;
+    grid-template-rows: repeat(3, auto);
   }
   .card {
     padding: 2.4rem;

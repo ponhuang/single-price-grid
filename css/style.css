@@ -15,7 +15,7 @@ body {
   font-size: 1.6rem;
   box-sizing: border-box;
   background-color: #ebedf0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,8 +107,8 @@ body {
 /*---------- max-width 720px ----------*/
 @media screen and (max-width: 45em) {
   .container {
-    max-width: 70vw;
-    grid-template-rows: repeat(3, 1fr); }
+    max-width: 80vw;
+    grid-template-rows: repeat(3, auto); }
   .card {
     padding: 2.4rem; }
     .card:nth-child(2) {
